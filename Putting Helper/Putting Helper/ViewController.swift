@@ -10,21 +10,30 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var PuttSkill: UITextField!
+    @IBOutlet var puttSkill: UITextField!
     
-    @IBOutlet var Length: UITextField!
+    @IBOutlet var length: UITextField!
     
-    @IBOutlet var RiseFall: UITextField!
+    @IBOutlet var riseFall: UITextField!
    
-    @IBOutlet var Slope: UITextField!
+    @IBOutlet var slope: UITextField!
     
-    @IBOutlet var PuttCalc: UIButton!
+    @IBOutlet var puttCalc: UIButton!
    
-    @IBOutlet var OutputPutts: UITextField!
+    @IBOutlet var outPutPutts: UITextField!
     
+    @IBAction func generatePutts(_ sender: Any) {
+        
+        UserDefaults.standard.set(Int(puttSkill.text ?? ""), forKey: "PuttSkill")
+        
+        
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        puttSkill.text = "\(UserDefaults.standard.integer(forKey: "PuttSkill"))"
+
     }
 
 

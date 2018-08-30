@@ -78,6 +78,9 @@
                                 <rect key="frame" x="164" y="376" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Putt It!"/>
+                                <connections>
+                                    <action selector="generatePutts:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NfS-iC-oza"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How Many Putts " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fG3-3A-s6r">
                                 <rect key="frame" x="123" y="445" width="129" height="21"/>
@@ -98,12 +101,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="Length" destination="cyS-YU-4Po" id="gVF-M8-K8Q"/>
-                        <outlet property="OutputPutts" destination="xo8-eE-iCo" id="Qvt-Gw-L0t"/>
-                        <outlet property="PuttCalc" destination="jd8-B5-ViN" id="R99-Oi-JD5"/>
-                        <outlet property="PuttSkill" destination="ovt-oy-B64" id="OT3-6J-DBx"/>
-                        <outlet property="RiseFall" destination="C5K-Ua-EL6" id="6Qf-8t-RkS"/>
-                        <outlet property="Slope" destination="t9b-nn-Nzy" id="xzg-pg-P94"/>
+                        <outlet property="length" destination="cyS-YU-4Po" id="gVF-M8-K8Q"/>
+                        <outlet property="outPutPutts" destination="xo8-eE-iCo" id="Qvt-Gw-L0t"/>
+                        <outlet property="puttCalc" destination="jd8-B5-ViN" id="R99-Oi-JD5"/>
+                        <outlet property="puttSkill" destination="ovt-oy-B64" id="OT3-6J-DBx"/>
+                        <outlet property="riseFall" destination="C5K-Ua-EL6" id="6Qf-8t-RkS"/>
+                        <outlet property="slope" destination="t9b-nn-Nzy" id="xzg-pg-P94"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
