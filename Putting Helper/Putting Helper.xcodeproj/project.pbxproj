@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B52C71F8213F1A4500B10161 /* mydatabase.db in Resources */ = {isa = PBXBuildFile; fileRef = B52C71F7213F1A4500B10161 /* mydatabase.db */; };
+		B52C71F9213F1B6100B10161 /* mydatabase.db in Resources */ = {isa = PBXBuildFile; fileRef = B52C71F7213F1A4500B10161 /* mydatabase.db */; };
 		B5A82E1921365262003510C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A82E1821365262003510C3 /* AppDelegate.swift */; };
 		B5A82E1B21365262003510C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A82E1A21365262003510C3 /* ViewController.swift */; };
 		B5A82E1E21365262003510C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A82E1C21365262003510C3 /* Main.storyboard */; };
@@ -38,6 +40,7 @@
 		52BB2B913405769426CC3E25 /* Pods-Putting Helper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Putting Helper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Putting Helper/Pods-Putting Helper.debug.xcconfig"; sourceTree = "<group>"; };
 		8BAA73652DB2F846A43B8C96 /* Pods-Putting Helper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Putting Helper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Putting Helper/Pods-Putting Helper.release.xcconfig"; sourceTree = "<group>"; };
 		99FE8CBB5DF378E5C8883C73 /* Pods_Putting_Helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Putting_Helper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B52C71F7213F1A4500B10161 /* mydatabase.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = mydatabase.db; path = ../mydatabase.db; sourceTree = "<group>"; };
 		B5A82E1521365261003510C3 /* Putting Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Putting Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A82E1821365262003510C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5A82E1A21365262003510C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +128,7 @@
 				B5A82E1A21365262003510C3 /* ViewController.swift */,
 				B5A82E1C21365262003510C3 /* Main.storyboard */,
 				B5A82E1F21365264003510C3 /* Assets.xcassets */,
+				B52C71F7213F1A4500B10161 /* mydatabase.db */,
 				B5A82E2121365264003510C3 /* LaunchScreen.storyboard */,
 				B5A82E2421365264003510C3 /* Info.plist */,
 			);
@@ -255,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52C71F8213F1A4500B10161 /* mydatabase.db in Resources */,
 				B5A82E2321365264003510C3 /* LaunchScreen.storyboard in Resources */,
 				B5A82E2021365264003510C3 /* Assets.xcassets in Resources */,
 				B5A82E1E21365262003510C3 /* Main.storyboard in Resources */,
@@ -272,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52C71F9213F1B6100B10161 /* mydatabase.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,15 +289,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Putting Helper/Pods-Putting Helper-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GRDB.swift/GRDB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRDB.framework",
 			);
@@ -305,15 +307,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Putting Helper-checkManifestLockResult.txt",
 			);

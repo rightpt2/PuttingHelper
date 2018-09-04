@@ -27,6 +27,15 @@ class ViewController: UIViewController {
         
         UserDefaults.standard.set(Int(puttSkill.text ?? ""), forKey: "PuttSkill")
         
+        let dbQueue = try! DatabaseQueue(path: "mydatabase.db")
+    
+        try! dbQueue.read { db in
+            if let row = try Row.fetchOne(db, "SELECT * FROM PuttDataTbl", arguments: [1]) {
+                let color: Int = row["One"]
+                print(color)
+                
+            }
+        }
         
         
     }
