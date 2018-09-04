@@ -1,0 +1,12 @@
+project 'Putting Helper.xcodeproj/'
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'Putting Helper' do
+  use_frameworks!
+
+  # Pods for Putting Helper
+pod 'GRDB.swift', '~> 3.2'
+
+end
